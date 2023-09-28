@@ -13,30 +13,30 @@
     <p>Please fill out this form with the required information.</p>
     <form action="https://register-demo.freecodecamp.org" method="post">
         <fieldset>
-            <legend> <small>Personal Details</small> </legend>
-            <label for="first-name">Enter Your First Name: <input type="text" id="first-name" name="first-name" required> </label>
-            <label for="last-name">Enter Your Last Name: <input type="text" id="last-name" name="last-name" required> </label>
-            <label for="email">Enter Your Email: <input type="email" id="email" name="email" required> </label>
-            <label for="new-password">Create a New Password: <input type="password" name="password" id="new-password" pattern="[A-Za-z0-9]{8,}" minlength="8" required> </label>
+            <legend>Personal Details:</legend>
+            <label for="first-name">Enter Your First Name: <input type="text" id="first-name" required> </label>
+            <label for="last-name">Enter Your Last Name: <input type="text" id="last-name" required> </label>
+            <label for="email">Enter Your Email: <input type="email" id="email" required> </label>
+            <label for="new-password">Create a New Password: <input type="password" id="new-password" pattern="[A-Za-z0-9]{8,}" minlength="8" required> </label>
         </fieldset>
         <fieldset>
-            <legend> <small>Account Type</small></legend>
+            <legend>Account Type:</legend>
             <label for="personal-account"> <input type="radio" name="account-type" id="personal-account"> Personal Account</label>
             <label for="business-account"> <input type="radio" name="account-type" id="business-account"> Business Account</label>
             <label for="terms-and-conditions"> <input type="checkbox" name="ts-and-cs" id="terms-and-conditions" required> <small>I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a> </small> </label>
         </fieldset>
         <fieldset>
-            <legend> <small>Other Details</small></legend>
+            <legend>Other Details:</legend>
             <label for="profile-pic">Upload a profile picture: <input type="file" name="profile-piture" id="profile-pic"></label>
             <label for="age">Input your age(years): <input type="number" name="age" id="age" min="13" max="100"> </label>
 
             <label for="referrer"> How did you hear about us?
-                <select name="referrer" id="referrer">
+                <select name="" id="referrer">
                     <option value="">(select one)</option>
                     <option value="1" selected name="news">freeCodeCamp News</option>
                     <option value="2" name="youtube" >freeCodeCamp YouTube Channel</option>
-                    <option value="3" name="forum" >freeCodeCamp Forum</option>
-                    <option value="4" name="other" >Other</option>
+                    <option value="3">freeCodeCamp Forum</option>
+                    <option value="4">Other</option>
                 </select>
             </label>
             <label for="bio">Provide a bio: 
@@ -45,7 +45,7 @@
             </label>
         </fieldset>
 
-        <input type="submit" value="Submit" name="submit" id="">
+        <input type="submit" value="Submit" name="" id="">
     </form>
 </body>
 
