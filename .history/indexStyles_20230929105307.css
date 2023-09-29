@@ -79,11 +79,8 @@ form {
     width: 60vw;
 }
 
-#submit-btn {
-    margin-bottom: 25px;
-}
-
 #submit-btn:hover {
     background-color: blanchedalmond;
-    color: #0a0a23;
+    margin-bottom: 25px;
+    color: #0a0a23.;
 }
