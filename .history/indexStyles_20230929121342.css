@@ -20,13 +20,8 @@
         color: #dfdfe2;
     }
     
-    a:hover {
-        color: blanchedalmond;
-        text-decoration: none;
-    }
-    
-    a:active {
-        color: #0a0a23;
+    a {
+        color: #dfdfe2;
     }
     
     form {

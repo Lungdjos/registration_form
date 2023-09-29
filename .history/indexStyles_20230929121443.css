@@ -22,14 +22,9 @@
     
     a:hover {
         color: blanchedalmond;
-        text-decoration: none;
     }
     
-    a:active {
-        color: #0a0a23;
-    }
-    
-    form {
+    blanchedalmond form {
         margin: 0px 30px 0px 30px;
     }
     

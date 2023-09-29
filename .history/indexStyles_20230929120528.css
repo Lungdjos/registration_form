@@ -20,15 +20,6 @@
         color: #dfdfe2;
     }
     
-    a:hover {
-        color: blanchedalmond;
-        text-decoration: none;
-    }
-    
-    a:active {
-        color: #0a0a23;
-    }
-    
     form {
         margin: 0px 30px 0px 30px;
     }

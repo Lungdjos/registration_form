@@ -17,16 +17,7 @@
     }
     
     a {
-        color: #dfdfe2;
-    }
-    
-    a:hover {
-        color: blanchedalmond;
-        text-decoration: none;
-    }
-    
-    a:active {
-        color: #0a0a23;
+        color: #f5f6f7;
     }
     
     form {
@@ -101,6 +92,7 @@
         background-color: #3b3b4f;
         border-color: white;
         min-width: 1em;
+        padding: 2em;
     }
     
     input[type="file"] {
